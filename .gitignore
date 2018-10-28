@@ -1,0 +1,12 @@
+*.tab.cpp
+*.tab.hpp
+*.yy.cpp
+*.got.txt
+
+output_files/*
+tmp/formative/*
+bin/*
+*.o
+*.output
+*.log
+*.stackdump
