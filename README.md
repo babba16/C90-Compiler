@@ -1,13 +1,13 @@
 Create a compiler for the C language
 ====================================
 
-Your program should read C source code from a file, and write
+The program can read C source code from a file, and write
 MIPS assembly to another file.
 
-Program build and execution
+Compiler build and execution
 ---------------------------
 
-Your program should be built using the command:
+The program is built using the command:
 
     make bin/c_compiler
 
@@ -24,9 +24,9 @@ The input format is the same as for the translator (pre-processed C90).
 Output Format
 -------------
 
-The output format should be MIPS1 assembly code.
+The output format is MIPS1 assembly code.
 
-It should be possible to assemble and link this code
+It is possible to assemble and link this code
 against a C run-time, and have it execute correctly
 on a MIPS processor as emulated by `qemu-mips`.
 
@@ -61,10 +61,10 @@ or the compiler under test is not generating correct code.
 
 
 
-Program build and execution
+Translator build and execution
 ---------------------------
 
-Your program should be built using the command:
+The program is built using the command:
 
     make bin/c_compiler
 
