@@ -101,11 +101,12 @@ int f(int x)
 ```
 into the python:
 
+```
 def f(x):
     return x*x
 ```
-
 Or this program:
+
 ```
 int f(int x)
 {
